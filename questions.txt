@@ -1,79 +1,104 @@
 Open main1.py. Before running it, what do you expect this program to do? 
+I expect Greetings! to print out in the color that I choose
 
 Now right click on the window and select “Run Python File in Terminal”. Click in the bottom panel, and answer the question. Describe what happened. 
+It printed out Greetings and what is my favorite color
 
 What do you think the program did with what you typed?
+The program took what I typed and printed those two lines that I told it to print out
 
 
 
 Open main2.py. Before running it, describe how this is different than main1.py. 
+The difference between main 1 and main 2 is that main 2 has color equal what is my favorite color and it is printing out color
 
 What do you think the color = input() will do? 
+I think it will print out color instead of what is my favorite color
 
 Run the program in the terminal and answer the question. Did the program do what you expected?
+No it did not instead it printed out what is my favorite color? print(color)
 
 
 
 Open main3.py. Before running it, describe how this is different than main2.py. 
 
 What is happening on lines 11–14? 
+It's saying if the color is red then print correct if not then print sorry try again
 
 Why are lines 12 and 14 indented? 
+They are indented to show that it goes with a certain line of code 
 
 Run the program and answer the question. What happens if you don’t capitalize Red? 
+If you don't capitalize Red then you get a syntax error
 
 What does this tell you about "color"?
+This tells me that it's important to type things a certain way or you'll get an error and to always captialize colors
 
 
 
 Open main4.py. Before running it, describe how this is different than main2.py. 
+Main 4 has the if and else just like main 3 does which makes it very different from main 2 
 
 What problem is this trying to solve? 
+In main 2 there was no color to choose from which is why it printed out what is my favorite color? print(color)
 
 Run the program and answer the question. What happens if you use some other capitalization scheme (i.e., “RED” or “reD“)?
+If you try to do this there will be a syntax error
 
 
 
 Open main5.py. What do you expect line 11 to do? 
+I expect it to make the word color equal red
 
 What problem is it trying to solve? 
+It is try to solve the problem that the earlier program had where it would not print out a color since they didn't have what the color was
 
 Run the program and answer the question. What happens if you add spaces before or after the word (i.e., “  RED  “ or “ red”)?
-
+It printed out a zero
 
 
 Open main6.py. How is line 11 different than main5.py? 
+It has .strip() next to color.lower()
 
 What would you guess .strip() is doing? 
+I'm guessing that .strip() removes certain words
 
 Run the program and answer the question. Is there another way of writing “red” that will break this logic?
+Another way to write red is to find another color that is somewhat similar to red so that it can print out red
 
 
 
 Open main7.py. Before running this program, how do you expect this to be different than main6.py? 
+This program seems to use a different color that is somewhat similar to red. If the two colors are compared to each other then red might print out
 
 What is the purpose of line 11? 
+The purpose of line 11 is to remove certain characters or word and that word is going to be pink so that red can print out
 
 Run the program and answer the question.
 
 
 
 Open main8.py. What is the purpose of line 11? 
+To make sure that the program knows that color is equal to red and if the color is red it should print out correct
 
 Why are lines 12–19 indented? 
+It's indented to show that it strings or goes through while and not the other part of the program
 
 Run the program. What would happen if line 12 were moved before line 11 (and no longer indented)? 
+Then the program will not longer input what is my favorite color and it will give an error 
 
 Make that change and run the program again. To end any Python program, you can type ctrl-c.
 
 
 
 Open main9.py. What is happening on line 12? 
+It's saying while color equals red then these outcomes will happen 
 
 What is the purpose of “count”? 
+It counts how many times something appears in the program
 
 What is happening on line 22? 
-
+It's going to print out how many times you tried to guess the right color
 Run the program.
 
 
@@ -82,3 +107,4 @@ Run the program.
 Commit your changes and push them back to the repository. 
 
 Did you do the extra credit?
+yes
